@@ -36,11 +36,12 @@ header .gnb-wrap{
     justify-content: space-between;
     align-items: center;
     width:100%;
+    height:100px;
     border-bottom: 1px solid #000;
 }
 
 header .gnb-wrap .inner{
-    margin-left:20px;
+    margin:0px 20px;
 }
 
 header .gnb-wrap .aside{
@@ -49,12 +50,10 @@ header .gnb-wrap .aside{
 }
 
 header .gnb-wrap .aside .shop{
-    position: relative;
     display: flex;
     align-items: center;
-    margin-left:28px;
-    padding:28px;
-    float:right;
+    justify-content: right;
+    margin:0px 20px;
 }
 
 header .gnb-wrap .aside .shop a{
