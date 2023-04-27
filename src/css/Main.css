@@ -1,0 +1,62 @@
+header{
+    position:relative;
+    z-index: 100; /*양수일수록 맨위*/
+    display: block;
+    height:auto;
+    padding:0;
+}
+
+header .top-area{
+    width:100%;
+    height:40px;
+    background-color: black;
+    color:#C9C9C9;
+}
+
+header .top-area .nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height:100%;
+    float: right;
+    color:#C9C9C9;
+    margin-right:35px;
+    /* margin-left:30px; */
+    /* width:1280px; */
+}
+
+header .top-area .nav a{
+    margin-left:20px;
+    text-decoration: none;
+    font-size:12px;
+}
+
+header .gnb-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    border-bottom: 1px solid #000;
+}
+
+header .gnb-wrap .inner{
+    margin-left:20px;
+}
+
+header .gnb-wrap .aside{
+    padding-left:80px;
+    float:right;
+}
+
+header .gnb-wrap .aside .shop{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left:28px;
+    padding:28px;
+    float:right;
+}
+
+header .gnb-wrap .aside .shop a{
+    margin-left:20px;
+}
